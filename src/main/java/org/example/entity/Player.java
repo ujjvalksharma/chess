@@ -1,5 +1,7 @@
 package org.example.entity;
 
+import org.example.entity.constant.Color;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -7,8 +9,8 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Position {
-  int x;
-  int y;
+public class Player {
+  String name;
+  Color color;
 
 }
